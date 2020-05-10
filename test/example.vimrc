@@ -15,6 +15,6 @@ set noshowmode
 set laststatus=2
 call plug#begin('~/.config/nvim/plugged')
 
-Plug '~/Repo4Github/vim-smartim'
+Plug '/PATH/TO/vim-smartim'
 
 call plug#end()
