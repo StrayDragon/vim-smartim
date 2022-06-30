@@ -3,7 +3,7 @@ let s:imselect_inactive = 1
 let s:imselect_close  = 0
 
 function smartim#imselect#init() 
-  let first_enter_status = system(g:imselect_cmd)
+  let first_enter_status = system(g:smartim_imselect_cmd)
   if first_enter_status  == s:imselect_active
     " echom "run im-select to ABC"
     " call system(g:smartim_imselect_cmd . ' com.apple.keylayout.ABC')
